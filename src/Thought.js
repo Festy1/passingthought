@@ -16,7 +16,7 @@ export function Thought(props) {
     return () => {
       clearTimeout(timesUp);
     };
-  }, [thought]);
+  }, [removeThought]);
 
   return (
     <li className="Thought">
